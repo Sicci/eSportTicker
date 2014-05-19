@@ -4,22 +4,22 @@ var settings_spoiler;
 var settings_showSettings;
 
 if(localStorage["settings_filter"] == undefined) {
-    alert("initialize localstorage settings filter");
+    console.log("initialize localstorage settings filter");
     localStorage["settings_filter"] = JSON.stringify(["csgo","lol","sc2","dota2","wc3","hs"]);
 }
 
 if (localStorage["settings_filter_unwanted"] == undefined) {
-    alert("initialize localstorage settings filter unwanted");
+    console.log("initialize localstorage settings filter unwanted");
     localStorage["settings_filter_unwanted"] = JSON.stringify([]);
 }
 
 if(localStorage["settings_spoiler"] == undefined) {
-    alert("initialize localstorage settings spoiler");
+    console.log("initialize localstorage settings spoiler");
     localStorage["settings_spoiler"] = "false";
 }
 
 if (localStorage["settings_showSettings"] == undefined) {
-    alert("initialize localstorage show settings");
+    console.log("initialize localstorage show settings");
     localStorage["settings_showSettings"] = "false";
 }
 
@@ -78,7 +78,7 @@ function hideUnwantedGames() {
 function refreshLocalStorageSettingsFilter() {
     localStorage["settings_filter"] = JSON.stringify(settings_filter);
     localStorage["settings_filter_unwanted"] = JSON.stringify(settings_filter_unwanted);
-    alert(settings_filter + " vs . "+settings_filter_unwanted);
+    console.log(settings_filter + " vs . "+settings_filter_unwanted);
 }
 
 $(document).ready(function(){
