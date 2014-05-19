@@ -42,9 +42,9 @@
     width: 103%;
 }
 
-#header .ui-btn:not(.untouched) {
+/*#header .ui-btn:not(.untouched) {
     padding: 7px 10px !important;
-}
+}*/
 
 .ui-controlgroup-controls {
     width:83% !important;
