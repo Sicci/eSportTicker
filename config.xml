@@ -12,7 +12,7 @@
         description of the app.
     </description>
 
-    <preference name="phonegap-version" value="3.0.0" />
+    <preference name="phonegap-version" value="3.3.0" />
 
     <icon src="icon.png" />
 
