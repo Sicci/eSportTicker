@@ -41,7 +41,7 @@ function initializeHeader() {
 
     if (!settings_showSettings) {
         console.log("hide settings");
-        $("#header_settings").addClass("hide");
+        $("#div_header_settings").addClass("hide");
         $("#img_settings").removeClass("glow");
     }
     else {
@@ -111,6 +111,6 @@ $(document).ready(function(){
         settings_spoiler = !settings_spoiler;
         localStorage["settings_spoiler"] = JSON.stringify(settings_spoiler);
         location.reload();
-        $("#header_settings").css('display', 'block !important');
+        $("#div_header_settings").css('display', 'block !important');
     });
 });

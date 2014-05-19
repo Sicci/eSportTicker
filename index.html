@@ -35,7 +35,7 @@
     }
 
     $(document).ready(function(){
-        $('.leftLink').parent().parent().parent().removeClass('ui-btn');
+        //$('.leftLink').parent().parent().parent().removeClass('ui-btn');
       //  $('.leftLink').contents().unwrap();
     });
 </script>
@@ -56,10 +56,10 @@
                 <input type="checkbox" name="checkbox-dota2" id="checkbox-dota2" class="dota2" />
                 <label for="checkbox-dota2"><img class="dota2" src="./images/dota2_grey.png"></label>
                 <input type="checkbox" name="checkbox-hs" id="checkbox-hs" class="hs" />
-                <label for="checkbox-hs"><img class="hs" src="./images/hs_grey.png"></label>
+                <label for="checkbox-hs"><img id ="hs" class="hs" src="./images/hs_grey.png"></label>
             </fieldset>
         <a id="a_settings" href="#" onclick="test()" data-mine="false" data-inline="false" class="ui-btn-right"><img id="img_settings" class="img_settings" src="./images/csgo.png"></a>
-        <div id="header_settings">
+        <div id="div_header_settings">
             <fieldset data-role="controlgroup">
                 <input type="checkbox" name="checkbox-settings-detailedView" id="checkbox-settings-detailedView" class="" />
                 <label class="untouched" for="checkbox-settings-detailedView">detailed view</label>

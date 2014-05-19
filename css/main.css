@@ -36,7 +36,7 @@
     top:inherit !important;
 } */
 
-#header_settings {
+#div_header_settings {
     height: 112px;
     margin-left: 6px;
     width: 103%;
@@ -48,6 +48,10 @@
 
 .ui-controlgroup-controls {
     width:83% !important;
+}
+
+.ui-btn .lol {
+    content:url("../images/lol_grey.png");
 }
 
 .ui-btn-active .lol {
