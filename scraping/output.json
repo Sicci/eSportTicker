@@ -1,0 +1,256 @@
+{
+    "matches": [
+        {
+            "gameType": "dota2",
+            "t1": "mousesports",
+            "t2": "fnatic",
+            "time": "15.05.",
+            "result": ""
+        },
+        {
+            "gameType": "dota2",
+            "t1": "CIS",
+            "t2": "Newbee",
+            "time": "15.05.",
+            "result": ""
+        },
+        {
+            "gameType": "dota2",
+            "t1": "iG",
+            "t2": "DT Club",
+            "time": "15.05.",
+            "result": ""
+        },
+        {
+            "gameType": "csgo",
+            "t1": "ex-LGB eSports",
+            "t2": "dignitas",
+            "time": "22:00h",
+            "result": ""
+        },
+        {
+            "gameType": "hs",
+            "t1": "ManaGrind",
+            "t2": "Clarity Gaming",
+            "time": "22:00h",
+            "result": ""
+        },
+        {
+            "gameType": "dota2",
+            "t1": "SNA",
+            "t2": "Union Gaming",
+            "time": "21:30h",
+            "result": ""
+        },
+        {
+            "gameType": "sc2",
+            "t1": "Ukraine",
+            "t2": "Spanien",
+            "time": "21:30h",
+            "result": ""
+        },
+        {
+            "gameType": "wc3",
+            "t1": "WaN",
+            "t2": "ReacH",
+            "time": "21:00h",
+            "result": ""
+        },
+        {
+            "gameType": "csgo",
+            "t1": "Wizards",
+            "t2": "fm-eSports",
+            "time": "21:00h",
+            "result": ""
+        },
+        {
+            "gameType": "csgo",
+            "t1": "fnatic",
+            "t2": "Virtus.pro",
+            "time": "21:00h",
+            "result": ""
+        },
+        {
+            "gameType": "sc2",
+            "t1": "MC",
+            "t2": "Solar",
+            "time": "live",
+            "result": ""
+        },
+        {
+            "gameType": "csgo",
+            "t1": "Titan",
+            "t2": "Team-LDLC",
+            "time": "live",
+            "result": ""
+        },
+        {
+            "gameType": "sc2",
+            "t1": "Happy",
+            "t2": "VortiX",
+            "time": "",
+            "result": "1:2"
+        },
+        {
+            "gameType": "csgo",
+            "t1": "fnatic",
+            "t2": "mousesports",
+            "time": "live",
+            "result": ""
+        },
+        {
+            "gameType": "csgo",
+            "t1": "NiP",
+            "t2": "Wizards",
+            "time": "",
+            "result": "16:2"
+        },
+        {
+            "gameType": "sc2",
+            "t1": "Mexiko",
+            "t2": "Finnland",
+            "time": "live",
+            "result": ""
+        },
+        {
+            "gameType": "sc2",
+            "t1": "HyuN",
+            "t2": "VortiX",
+            "time": "",
+            "result": "3:1"
+        },
+        {
+            "gameType": "dota2",
+            "t1": "NAR",
+            "t2": "Liquid",
+            "time": "",
+            "result": "2:0"
+        },
+        {
+            "gameType": "sc2",
+            "t1": "Invictus Gaming",
+            "t2": "coL.Dignitas",
+            "time": "live",
+            "result": ""
+        },
+        {
+            "gameType": "sc2",
+            "t1": "Liquid",
+            "t2": "Flash Wolves",
+            "time": "",
+            "result": "2:5"
+        },
+        {
+            "gameType": "sc2",
+            "t1": "DongRaeGu",
+            "t2": "ParalyzE",
+            "time": "",
+            "result": "1:2"
+        },
+        {
+            "gameType": "sc2",
+            "t1": "MyuNgSiK",
+            "t2": "ParalyzE",
+            "time": "",
+            "result": "0:2"
+        },
+        {
+            "gameType": "sc2",
+            "t1": "Mvp",
+            "t2": "Leenock",
+            "time": "",
+            "result": "1:4"
+        },
+        {
+            "gameType": "dota2",
+            "t1": "HGT",
+            "t2": "NE.cn",
+            "time": "",
+            "result": "1:0"
+        },
+        {
+            "gameType": "sc2",
+            "t1": "Maru",
+            "t2": "DongRaeGu",
+            "time": "",
+            "result": "2:0"
+        },
+        {
+            "gameType": "dota2",
+            "t1": "Rave",
+            "t2": "Team Zephyr",
+            "time": "",
+            "result": "0:2"
+        },
+        {
+            "gameType": "dota2",
+            "t1": "Vici Gaming",
+            "t2": "HGT",
+            "time": "",
+            "result": "1:0"
+        },
+        {
+            "gameType": "sc2",
+            "t1": "ParalyzE",
+            "t2": "DongRaeGu",
+            "time": "",
+            "result": "0:2"
+        },
+        {
+            "gameType": "lol",
+            "t1": "SKT T1 K",
+            "t2": "KT Bullets",
+            "time": "",
+            "result": "3:0"
+        },
+        {
+            "gameType": "sc2",
+            "t1": "Maru",
+            "t2": "MyuNgSiK",
+            "time": "",
+            "result": "2:0"
+        },
+        {
+            "gameType": "dota2",
+            "t1": "eHug",
+            "t2": "Union Gaming",
+            "time": "",
+            "result": "0:1"
+        },
+        {
+            "gameType": "dota2",
+            "t1": "SNA",
+            "t2": "Union Gaming",
+            "time": "",
+            "result": "1:0"
+        },
+        {
+            "gameType": "dota2",
+            "t1": "SNA",
+            "t2": "eHug",
+            "time": "",
+            "result": "1:0"
+        },
+        {
+            "gameType": "dota2",
+            "t1": "Liquid",
+            "t2": "Union Gaming",
+            "time": "",
+            "result": "0:1"
+        },
+        {
+            "gameType": "dota2",
+            "t1": "SOTP",
+            "t2": "Revenge",
+            "time": "",
+            "result": "0:1"
+        },
+        {
+            "gameType": "dota2",
+            "t1": "eHug",
+            "t2": "No Earthspirit",
+            "time": "",
+            "result": "1:0"
+        }
+    ]
+}

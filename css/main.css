@@ -1,0 +1,165 @@
+.glowing .ui-btn-active {
+    background-color: #373737 !important;
+    border-color: #373737 !important;
+}
+
+.ui-btn-right {
+    margin: 5px !important;
+
+    -webkit-border-radius: 0em !important;
+    border-radius: 0em !important;
+}
+
+.hide {
+    display:none !important;
+}
+
+.spoilerAlert a {
+    color: #f9a51b !important;
+}
+
+.live {
+    font-weight: bold;
+    color: green;
+}
+
+#fieldset_settings_filter {
+    margin-left: 7px;
+}
+
+.img_settings {
+    width: 32px;
+}
+
+.ui-listview .ui-li-aside {
+    right:1.333em !important; //breaking a href listview
+    top:inherit !important; //breaking detailed view
+}
+
+#header_settings {
+    height: 112px;
+    margin-left: 6px;
+    width: 103%;
+}
+
+#header .ui-btn:not(.untouched) {
+    padding: 7px 10px !important;
+}
+
+.ui-controlgroup-controls {
+    width:83% !important;
+}
+
+.ui-btn-active .lol {
+    content:url("../images/lol.png");
+}
+
+.ui-btn-active .csgo {
+    content:url("../images/csgo.png");
+}
+
+.ui-btn-active .hs {
+    content:url("../images/hs.png");
+}
+
+.ui-btn-active .dota2 {
+    content:url("../images/dota2.png");
+}
+
+.ui-btn-active .wc3 {
+    content:url("../images/wc3.png");
+}
+
+.ui-btn-active .sc2 {
+    content:url("../images/sc2_colorful.png");
+}
+
+.ui-li .ui-btn-text span.ui-link-inherit { text-overflow: ellipsis; overflow: hidden; white-space: nowrap;  }
+.ui-li .ui-btn-inner span.ui-link-inherit { padding: .7em 15px .7em 15px; display: block; }
+
+.expand {
+    content: url("../images/settings_expand.png") !important;
+}
+
+.glow {
+    box-shadow: 0 0 5px 2px #DDA122;
+    -webkit-box-shadow: 0 0 5px 2px #DDA122;
+    -moz-box-shadow: 0 0 5px 2px #DDA122;
+}
+
+.test {
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+/*glow for webkit*/
+@-webkit-keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #FF1177,
+        0 0 70px  #FF1177,
+        0 0 80px  #FF1177,
+        0 0 100px #FF1177,
+        0 0 150px #FF1177;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #FF1177,
+        0 0 35px #FF1177,
+        0 0 40px #FF1177,
+        0 0 50px #FF1177,
+        0 0 75px #FF1177;
+    }
+}
+
+/*glow for mozilla*/
+@-moz-keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #FF1177,
+        0 0 70px  #FF1177,
+        0 0 80px  #FF1177,
+        0 0 100px #FF1177,
+        0 0 150px #FF1177;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #FF1177,
+        0 0 35px #FF1177,
+        0 0 40px #FF1177,
+        0 0 50px #FF1177,
+        0 0 75px #FF1177;
+    }
+}
+/*glow*/
+@keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #FF1177,
+        0 0 70px  #FF1177,
+        0 0 80px  #FF1177,
+        0 0 100px #FF1177,
+        0 0 150px #FF1177;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #FF1177,
+        0 0 35px #FF1177,
+        0 0 40px #FF1177,
+        0 0 50px #FF1177,
+        0 0 75px #FF1177;
+    }
+}

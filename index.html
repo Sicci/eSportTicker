@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <title>Tutorial #4</title>
+    <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>-->
+
+    <!--<script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>-->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
+
+
+    <script src="phonegap.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/scrapeReadmore.js"></script>
+</head>
+<body>
+
+<script>
+    function test() {
+        $("#img_settings").toggleClass("glow");
+        settings_showSettings = !settings_showSettings;
+        $("#header_settings").toggle("slide");
+        $("#header_settings").removeClass("hide");
+        localStorage["settings_showSettings"] = JSON.stringify(settings_showSettings);
+    }
+
+    function showDetails() {
+        $("#li-01 .details").toggleClass("hide");
+        $('#listview_main').listview('refresh');
+    }
+
+    $(document).ready(function(){
+        $('.leftLink').parent().parent().parent().removeClass('ui-btn');
+      //  $('.leftLink').contents().unwrap();
+    });
+</script>
+
+
+<div data-role="page" id="page_main">
+
+    <div id="header" data-theme="b" data-role="header">
+            <fieldset id="fieldset_settings_filter" class="glowing" data-role="controlgroup" data-type="horizontal">
+                <input type="checkbox" name="checkbox-csgo" id="checkbox-csgo" class="csgo" />
+                <label for="checkbox-csgo"><img class="csgo" src="images/csgo_grey.png"> </label>
+                <input type="checkbox" name="checkbox-lol" id="checkbox-lol" class="lol" />
+                <label for="checkbox-lol"><img class="lol" src="images/lol_grey.png"></label>
+                <input type="checkbox" name="checkbox-sc2" id="checkbox-sc2" class="sc2" />
+                <label for="checkbox-sc2"><img class="sc2" src="images/sc2_grey.png"></label>
+                <input type="checkbox" name="checkbox-wc3" id="checkbox-wc3" class="wc3" />
+                <label for="checkbox-wc3"><img class="wc3" src="images/wc3_grey.png"></label>
+                <input type="checkbox" name="checkbox-dota2" id="checkbox-dota2" class="dota2" />
+                <label for="checkbox-dota2"><img class="dota2" src="images/dota2_grey.png"></label>
+                <input type="checkbox" name="checkbox-hs" id="checkbox-hs" class="hs" />
+                <label for="checkbox-hs"><img class="hs" src="images/hs_grey.png"></label>
+                </fieldset>
+        <a id="a_settings" href="#" onclick="test()" data-mine="false" data-inline="false" class="ui-btn-right"><img id="img_settings" class="img_settings" src="images/settings.png"></a>
+        <div id="header_settings">
+            <fieldset data-role="controlgroup">
+                <input type="checkbox" name="checkbox-settings-detailedView" id="checkbox-settings-detailedView" class="" />
+                <label class="untouched" for="checkbox-settings-detailedView">detailed view</label>
+                <input type="checkbox" name="checkbox-settings-showSpoilers" id="checkbox-settings-showSpoilers" class="" />
+                <label class="untouched" for="checkbox-settings-showSpoilers">show spoilers (game results)</label>
+                <input type="checkbox" name="checkbox-settings-getNotifications" id="checkbox-settings-getNotifications" class="" />
+                <label class="untouched" for="checkbox-settings-getNotifications">get notifications for upcomming favorite teams</label>
+            </fieldset>
+
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html" class="ui-btn-active ui-state-persist">Today</a></li>
+                <li><a href="tomorrow.html" class="">Tomorrow</a></li>
+            </ul>
+
+        </div>
+        </div>
+
+
+
+    <div data-theme="d" data-role="content">
+
+            <ul id="listview_main" data-role="listview" data-theme="d">
+                <li id="li-00" class='li-hs'>
+                    <img class='ui-li-icon' src='images/hs.png'/>
+                    <strong>test1</strong> vs. <strong>test2</strong>
+                    <!--<h3>test1 vs. test2</h3>-->
+                    <p class="ui-li-desc">Coverage: <strong>The International</strong></p>
+                    <p class="ui-li-desc">Livestreams: <a href="#" rel="external">SLTV #1</a> <a href="#">Fragbite TV</a> </p>
+                    <span class='ui-li-aside'>00:00</span>
+                </li>
+                <li data-icon="grid">
+                    <a href="#" class="leftLink" onclick="alert('Nooooooooooo!'); return false;">
+                    <img class='ui-li-icon' src='images/hs.png'/>
+
+                   <span class="ui-link-inherit">
+                       This should not be a link
+                        <p>Links are not cool, bro</p>
+                    </span>
+                    </a>
+                    <a href="#" onclick="alert('Goodoh!')">This is a link though</a>
+                </li>
+                <li id="li-01" class='li-hs'>
+                    <a href="#" onclick="showDetails()">
+                        <img class='ui-li-icon' src='images/hs.png'/>
+                        <span class="ui-li-aside">99:99</span>
+                        <strong>strong</strong>
+                        <!--<span class='ui-li-aside'>00:00</span>
+
+
+                        <strong>test1</strong> vs. <strong>test2</strong>
+                        <!--<h3>test1 vs. test2</h3>
+                        <span class="details">
+                            <p class="ui-li-desc">
+                            <p class="ui-li-desc">Livestreams: <a href="#">SLTV #1</a> <a href="#">Fragbite TV</a> </p>
+                        </span>-->
+                        <p class="ui-li-desc">Coverage: <strong>The International</strong></p>
+                        <p class="ui-li-desc">Livestreams:SLTV #1 Fragbite TV</p>
+                    </a>
+                    <a  data-icon="gear" href="#" title="test2">testtest</a>
+                </li>
+
+            </ul>
+    </div>
+
+
+
+    <div data-role="footer">
+        <h4>Footer</h4>
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+<!--
+<div data-role="page" id="seite02">
+
+    <div data-role="header">
+        <h1>Seite 02</h1>
+    </div><!-- /header --
+    <div data-role="content">
+        <h1>Seite 02</h1>
+    </div><!-- /content --
+
+    <div data-role="footer">
+        <h4>Footer</h4>
+    </div><!-- /footer --
+</div><!-- /page --
+-->
+</body>
+</html>
