@@ -31,10 +31,10 @@
     width: 32px;
 }
 
-.ui-listview .ui-li-aside {
-    right:1.333em !important; //breaking a href listview
-    top:inherit !important; //breaking detailed view
-}
+/*.ui-listview .ui-li-aside {
+    right:1.333em !important;
+    top:inherit !important;
+} */
 
 #header_settings {
     height: 112px;
